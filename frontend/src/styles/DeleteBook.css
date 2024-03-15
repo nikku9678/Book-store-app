@@ -1,0 +1,23 @@
+.del{
+    /* margin-top: 100px; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   max-width:300px ;
+    display: flex;
+    /* border: 2px solid black; */
+  
+   border-radius: 10px;
+   padding: 15px;
+    flex-direction: column;
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+}
+.del .del-btn{
+   display: flex;
+   flex-direction: row;
+   margin:10px;
+   padding: 10px;
+}
+.del-btn button{
+    margin-left: 10px;
+}

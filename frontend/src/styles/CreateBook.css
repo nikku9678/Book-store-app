@@ -1,0 +1,70 @@
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    width: 60%;
+    margin: 50px auto;
+
+  }
+  .create h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .create-createBox {
+    background-color: lightseagreen;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* border: 2px solid black; */
+    
+  }
+  .create-createBox h2 {
+    text-align: center;
+    margin: 5px;
+    
+  }
+
+  .create label {
+    display: block;
+    margin: 3px;
+    font-weight: bold;
+  }
+  .create-createBox div{
+    margin: 10px 0;
+  }
+  .create input {
+    min-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .create .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .create button{
+    width: 100%;
+    padding: 5px 30px;
+    font-size: 18px;
+  
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width:600px){
+    .create{
+    width: 90%;
+    margin: 50px auto;
+    }
+  }
